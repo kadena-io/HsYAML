@@ -1,5 +1,28 @@
 See also http://pvp.haskell.org/faq
 
+### 0.2.1.4
+
+_2024-04-25_
+
+* Drop support for GHC 7
+* Testsuite: relax lower bounds to accommodate LTS 11.22 (GHC 8.2) for new Stack CI
+* Tested with GHC 8.0 - 9.10.0 (alpha3)
+
+### 0.2.1.3
+
+_2023-10-14_
+
+* Pacify `x-partial` warning of GHC 9.8
+* Tested with GHC 7.10 - 9.8.1
+
+### 0.2.1.2
+
+_2023-09-29_
+
+* Add `default-extensions: TypeOperators` to silence warning under GHC ≥ 9.4.
+* Support latest versions of dependencies.
+* Tested with GHC 7.10 - 9.8.0
+
 ### 0.2.1.1
 
 _2022-05-11_
